@@ -106,6 +106,7 @@ int main() {
     // 打印信息
     // std::wcout << L"CS2 文件夹路径: " << cs2FolderPath << std::endl;
     // std::wcout << L"目标 CSGO 文件夹路径: " << targetCsgoFolder << std::endl;
+    // std::wcout << L"目标 CFG 文件夹路径: " << targetCfgFolder << std::endl;
 
     // 将可执行文件夹中的所有 .dem 文件复制到目标 csgo 文件夹
     copyFiles(executableFolder, targetCsgoFolder, L".dem");
