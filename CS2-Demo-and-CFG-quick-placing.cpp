@@ -51,10 +51,13 @@ void copyFiles(const fs::path& sourceFolder, const fs::path& destinationFolder, 
 }
 
 int main() {
-    setlocale(LC_ALL, "");  // 设置本地化信息为当前环境
+    // 设置本地化信息为当前环境
+    setlocale(LC_ALL, "");  
 
     // 打印欢迎消息
-    std::wcout << L"欢迎使用 CS2BenchMarkInstaller.exe 自动安装程序。" << std::endl;
+    std::wcout << L"欢迎使用CS2 Demo和CFG快速放置程序。" << std::endl;
+    std::wcout << L"作者：嗜金水狙" << std::endl;
+    std::wcout << L"本程序项目链接：https://github.com/ShuiJu/CS2-Demo-and-CFG-quick-placing" << std::endl;
 
     // 将当前工作目录设置为可执行文件所在的目录
     wchar_t executablePath[MAX_PATH];
