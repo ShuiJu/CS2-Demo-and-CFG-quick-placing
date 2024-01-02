@@ -65,12 +65,12 @@ int main() {
     fs::path executableFolder = fs::path(executablePath).parent_path();
     SetCurrentDirectoryW(executableFolder.c_str());
 
-    // 检查 CS2BenchMarkInstaller.exe 所在的文件夹内是否同时缺少 cfg 和 dem 文件
+    // 检查 CS2-Demo-and-CFG-quick-placing.exe 所在的文件夹内是否同时缺少 cfg 和 dem 文件
     fs::path cfgFilePath = executableFolder / L"cs2.cfg";
     fs::path demFilePath = executableFolder / L"cs1026.dem";
 
     if (!fs::exists(cfgFilePath) && !fs::exists(demFilePath)) {
-        std::wcerr << L"错误: CS2BenchMarkInstaller.exe 所在的文件夹同时缺少 cfg 和 dem 文件。" << std::endl;
+        std::wcerr << L"错误: CS2-Demo-and-CFG-quick-placing.exe 所在的文件夹同时缺少 cfg 和 dem 文件。" << std::endl;
         return 1;
     }
 
