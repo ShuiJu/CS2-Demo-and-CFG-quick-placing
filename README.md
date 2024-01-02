@@ -16,7 +16,7 @@
 
 1. 从Steam运行CS2。
 2. 在任意目录下新建一个文件夹，用来存放CS2DACQP.exe和需要被复制的cfg/dem文件。
-3. 打开CMD，把CS2DACQP.exe拖入CMD窗口并回车即可运行。
+3. 打开CMD，把CS2-Demo-and-CFG-quick-placing.exe拖入CMD窗口并回车即可运行。
 4. 如果程序发现正在运行的Counter-Strike 2窗口，将会开始文件复制的过程。
 5. 若程序所在文件夹拥有cfg和/或dem文件，程序会正常运行。
 6. 若目标文件夹已存在相同文件名文件，程序会询问是否覆盖。
